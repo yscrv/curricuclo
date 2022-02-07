@@ -1,0 +1,59 @@
+.vetor-bg {
+  background: var(--cor-1) url("../img/Vector\ 1.svg") no-repeat right;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.navegacao {
+  display: flex;
+  gap: 20px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  display: flex;
+  align-items: center;
+}
+.nav-links a img {
+  margin-right: 8px;
+}
+.gmail {
+  margin-left: 30px;
+  background: var(--cor-0);
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(66, 66, 66, 0.15);
+}
+.intro {
+  padding-top: 120px;
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-columns: 5fr 11fr;
+  gap: 100px;
+  align-items: center;
+}
+.intro-info p {
+  position: relative;
+  margin-top: 16px;
+}
+.intro-info p::before {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: var(--cor-p1);
+  position: absolute;
+  top: -16px;
+}
+.separador {
+  width: 1260px;
+  height: 2px;
+  background: var(--cor-7);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.21);
+  border-radius: 1px;
+}

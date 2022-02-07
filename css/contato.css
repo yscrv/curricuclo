@@ -1,0 +1,24 @@
+.contato-bg {
+  background: var(--cor-1) url("../img/Vector\ 2.svg") no-repeat;
+}
+.contato {
+  display: grid;
+}
+.contato span {
+  margin-bottom: 100px;
+  justify-self: center;
+}
+.contato-info {
+  display: grid;
+  grid-template-columns: 9fr 5fr;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.contato-info li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contato-info li + li {
+  margin-top: 16px;
+}

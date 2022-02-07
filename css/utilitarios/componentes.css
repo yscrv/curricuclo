@@ -1,0 +1,27 @@
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.detalhe-titulo {
+  display: block;
+  background: url("../img/detalhe-titulo.svg");
+  width: 86px;
+  height: 4px;
+}
+.separador {
+  width: 1260px;
+  height: 2px;
+  background: var(--cor-7);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.21);
+  border-radius: 1px;
+}
+.copy {
+  background-color: var(--cor-0);
+  height: 80px;
+  text-align: center;
+}
+.copy p {
+  padding-top: 33px;
+}

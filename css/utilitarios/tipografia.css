@@ -1,0 +1,31 @@
+.font-1-xxs {
+  font: 400 0.75rem/1 "Rubik", serif;
+}
+.font-1-xs {
+  font: 400 0.875rem/1 "Rubik", serif;
+}
+.font-1-m {
+  font: 400 1.125rem/1 "Rubik", serif;
+}
+.font-1-m-u {
+  font: 400 1.125rem/1 "Rubik", serif;
+  text-transform: uppercase;
+}
+.font-1-l-u {
+  font: 400 3rem/1 "Rubik", serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.font-1-l {
+  font: 600 3rem/1 "Rubik", serif;
+  line-height: 57px;
+}
+.font-2-xs {
+  font: 400 0.875rem/1 "Merriweather Sans", serif;
+}
+.font-2-s {
+  font: 400 1rem/1 "Merriweather Sans", serif;
+}
+.font-2-m {
+  font: 400 2rem/1 "Merriweather Sans", serif;
+}
