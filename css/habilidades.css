@@ -16,15 +16,16 @@
   box-shadow: 8px 8px 30px 10px rgba(0, 0, 0, 0.46);
   border-radius: 10px;
   max-width: 1100px;
-  display: grid;
-  gap: 300px;
-  grid-template-columns: 4fr 5fr;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
 }
 .box {
   padding: 20px;
   background-color: var(--cor-3);
   border-radius: 20px;
-  max-width: 300px;
+  min-width: 300px;
 }
 .box-1 {
   display: flex;
@@ -74,4 +75,43 @@
   background: url("../img/detalhe-titulo.svg");
   width: 86px;
   height: 4px;
+}
+@media (max-width: 1000px) {
+  .habilidades-box {
+    justify-content: center;
+    display: unset;
+  }
+  .box-2 {
+    margin-top: 60px;
+  }
+  .habilidades-bg {
+    padding-top: 60px;
+  }
+  .habilidades {
+    gap: 60px;
+  }
+}
+@media (max-width: 610px) {
+  .box {
+    min-width: 160px;
+  }
+  .loadline {
+    width: 150px;
+  }
+  .habilidades {
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  .habilidades-box {
+    padding: 40px;
+  }
+  .habilidades h1 {
+    font-size: 2.5rem;
+  }
+  .column-1 div + div {
+    margin-top: 24px;
+  }
+  .box-2 {
+    margin-top: 24px;
+  }
 }

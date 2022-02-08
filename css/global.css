@@ -17,10 +17,16 @@ ul {
   padding: 0px;
   list-style: none;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 .content {
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 1260px;
-  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
