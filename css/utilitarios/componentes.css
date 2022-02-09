@@ -11,7 +11,7 @@
   height: 4px;
 }
 .separador {
-  width: 1260px;
+  max-width: 1260px;
   height: 2px;
   background: var(--cor-7);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.21);

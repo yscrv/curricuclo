@@ -77,21 +77,35 @@
   height: 4px;
 }
 @media (max-width: 1000px) {
-  .habilidades-box {
-    justify-content: center;
-    display: unset;
+  .box {
+    min-width: 200px;
   }
-  .box-2 {
-    margin-top: 60px;
+  .box h2 {
+    font-size: 1rem;
   }
   .habilidades-bg {
     padding-top: 60px;
   }
   .habilidades {
     gap: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 800px) {
+  .box-2 {
+    margin-top: 60px;
+  }
+  .habilidades-box {
+    justify-content: center;
+    display: unset;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 @media (max-width: 610px) {
+  .habilidades-bg {
+    padding-bottom: 60px;
+  }
   .box {
     min-width: 160px;
   }
@@ -100,12 +114,12 @@
   }
   .habilidades {
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .habilidades-box {
     padding: 40px;
   }
-  .habilidades h1 {
+  .titulo h1 {
     font-size: 2.5rem;
   }
   .column-1 div + div {
@@ -113,5 +127,10 @@
   }
   .box-2 {
     margin-top: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .titulo h1 {
+    font-size: 1.5rem;
   }
 }

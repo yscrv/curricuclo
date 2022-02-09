@@ -3,6 +3,8 @@
 }
 .contato {
   display: grid;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .contato span {
   margin-bottom: 100px;
@@ -21,4 +23,58 @@
 }
 .contato-info li + li {
   margin-top: 16px;
+}
+@media (max-width: 800px) {
+  .contato {
+    justify-content: space-evenly;
+  }
+  .contato span {
+    margin-bottom: 60px;
+  }
+  .contato-info {
+    margin-bottom: 60px;
+  }
+  .contato-info li a {
+    font-size: 0.875rem;
+  }
+  .contato-info img {
+    width: 24px;
+    height: 24px;
+  }
+  .contato-info h1 {
+    font-size: 2.5rem;
+  }
+  .contato-bg {
+    background-position-y: -30px;
+  }
+}
+@media (max-width: 610px) {
+  .contato span {
+    margin-bottom: 40px;
+  }
+  .contato-info h1 {
+    font-size: 2rem;
+  }
+  .contato-info {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+  .contato-info li {
+    justify-content: center;
+    gap: 8px;
+  }
+  .contato-info {
+    margin-bottom: 40px;
+  }
+  .contato-bg {
+    background-position-x: -150px;
+    background-position-y: -50px;
+  }
+}
+@media (max-width: 400px) {
+  .contato-bg {
+    background-position-x: -350px;
+    background-position-y: -50px;
+  }
 }
