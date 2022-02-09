@@ -98,8 +98,6 @@
   .habilidades-box {
     justify-content: center;
     display: unset;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
 @media (max-width: 610px) {
